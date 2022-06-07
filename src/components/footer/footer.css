@@ -1,0 +1,18 @@
+.footer{
+    background-color: #333333;
+max-height: 400px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.footer a{
+    color: #e0e0e2;
+}
+.footer li{
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+}
+.footer p{
+    color: white;
+}

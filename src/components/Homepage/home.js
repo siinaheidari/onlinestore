@@ -1,0 +1,47 @@
+import React, {useState,useEffect} from 'react';
+import axios from "axios";
+import Productitems from "./productitems";
+import Slideshow from "../slideshow/slideshow";
+import SuggestItems from "./suggestitem";
+
+
+
+const Home = () => {
+    const [Products, setProducts] = useState([]);
+    const [items, setItems] = useState([]);
+
+    useEffect(() => {
+        return () => {
+            axios.get("http://localhost:3000/Product")
+                .then(response =>{
+                    setProducts(response.data)
+                    console.log(response.data);
+                }).catch(error =>{
+                console.log(error)
+            })
+        };
+    }, []);
+
+
+    useEffect(() => {
+        return () => {
+            axios.get("http://localhost:3000/items")
+                .then(response =>{
+                    setItems(response.data)
+                    console.log(response.data)
+                }).catch(err => {
+                console.log(err)
+            })
+        };
+    }, []);
+
+    return (
+        <div>
+            <Slideshow/>
+            <Productitems Products={Products}/>
+            <SuggestItems Items={items}/>
+        </div>
+    );
+};
+
+export default Home;
