@@ -1,0 +1,67 @@
+.detail {
+    background-color: #ffffff;
+    max-width: 1330px;
+    width: 100%;
+    height: 622px;
+    margin: 2rem auto;
+    box-shadow: 3px 3px 10px 10px #e9e9e9;
+    border-radius: 20px;
+
+}
+
+.detail-list {
+    display: flex;
+    justify-content: space-around;
+    direction: rtl;
+    padding: 2rem;
+    width: 100%;
+
+}
+
+.detail-items button, p, h2, h3 {
+    margin-right: 1rem;
+    margin-top: 0.7rem;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.icons {
+    display: flex;
+    align-items: end;
+    text-align: center;
+    color: #a2a2a2;
+}
+
+.icons p {
+    margin-left: 1rem;
+}
+
+
+.option {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.garanty {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.detail-items button {
+    background-image: linear-gradient(to right, #42ec97, #12bc67);
+    font-size: 20px;
+    border-radius: 10px;
+    direction: rtl;
+    width: 300px;
+    margin-top: 1.5rem;
+}
+
+.detail-items button:hover {
+    background-image: linear-gradient(to right, #fe5444, #cd3444)
+}

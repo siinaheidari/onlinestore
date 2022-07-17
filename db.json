@@ -2,72 +2,126 @@
   "Product": [
     {
       "id": "1",
-      "title": "DualSense-Midnight Black",
-        "description": "دوال سنس مشکی",
-      "price": "1,750,000 تومان",
-      "images": "https://pspro.ir/image/cache/catalog/Mahsool/JC/joy-con-purple-orange-260x260.jpg"
+      "title": "PlayStation 5",
+      "description": "نسخه استاندارد دیسک خور ",
+      "price": 24500000,
+      "images": "https://pspro.ir/image/cache/catalog/PS5/ps5-standard-260x260.jpg",
+      "company": "Sony",
+      "options": [
+        "مجهز به تکنولوژی صدای سه بعدی Tempest",
+        "  قابلیت اجرای بازی ها با رزولوشن 4k و فریم ریت ۱۲۰",
+        " حافظه 825 گیگابایتی SSD",
+        " نسخه دیسک خور سازگار با دیسک بلوری"
+      ],
+      "garanty": [
+        " ده روز مهلت تست رایگان و اصالت کالا  ",
+        "دوازده ماه ضمانت خدمات و تعمیرات (+300,000 تومان)"
+      ]
     },
     {
       "id": "2",
-      "title": "DualSense-Midnight Black",
-      "description": "دوال سنس مشکی",
-      "price": "1,750,000 تومان",
-      "images": "https://pspro.ir/image/cache/catalog/PS5/DualSense/dualsense-cosmic-red-400x400.jpg"
+      "title": "Xbox Series X",
+      "description": "ایکس باکس سری ایکس ",
+      "price": 20990000,
+      "images": "https://pspro.ir/image/cache/catalog/XBOX%20Series%20X/XBOXX/xbox-series-X-260x260.jpg",
+      "company": "Microsoft",
+      "options": [
+        "ساخته شده با معماری Velocity",
+        "  قابلیت اجرای بازی ها با رزولوشن 4k و فریم ریت ۱۲۰",
+        " حافظه یک ترابایتی",
+        "  دارای قابلیت Quick Resume"
+      ],
+      "garanty": [
+        " ده روز مهلت تست رایگان و اصالت کالا  ",
+        "دوازده ماه ضمانت خدمات و تعمیرات (+300,000 تومان)"
+      ]
     },
     {
       "id": "3",
-      "title": "DualSense-Midnight Black",
-      "description": "دوال سنس مشکی",
-      "price": "1,750,000 تومان",
-      "images": "https://pspro.ir/image/cache/catalog/PS5/ps5-standard-260x260.jpg"
-
+      "title": "نینتندو سوییچ مدل OLED",
+      "description": "OLED Model ",
+      "price": 11480000,
+      "images": "https://pspro.ir/image/cache/catalog/Nintendo_Switch/OLED/W/nintendo-switch-oled-model-white-joy-con-260x260.jpg",
+      "company": "Nintendo",
+      "options": [
+        "قابل بازی به صورت دستی و اتصال به نمایشگر",
+        " دارای حافظه 64 گیگابایتی",
+        " دارای نمایشگر OLED با رزولوشن 720p",
+        " دارای سنسور حرکتی در کنسول و جوی کان"
+      ],
+      "garanty": [
+        " ده روز مهلت تست رایگان و اصالت کالا  ",
+        "دوازده ماه ضمانت خدمات و تعمیرات (+300,000 تومان)"
+      ]
     },
     {
       "id": "4",
-      "title": "DualSense-Midnight Black",
-      "description": "دوال سنس مشکی",
-      "price": "1,750,000 تومان",
-      "images": "https://pspro.ir/image/cache/catalog/PS5/P3D/pulse-3d-400x400.jpg"
-
+      "title": "ازی فیفا 22 برای PS5",
+      "description": "بازی PS5",
+      "price": 1180000,
+      "images": "https://pspro.ir/image/cache/catalog/Games/F22/fifa-sp5-22-400x400.jpg",
+      "company": " EA Games",
+      "options": [
+        " تا چهار نفر آفلاین - تا ۲۲ نفر آنلاین - نیازمند پلاس برای بازی ",
+        "ورزشی - فوتبال",
+        "  مناسب برای تمام سنین"
+      ],
+      "garanty": [
+        " ده روز مهلت تست رایگان و اصالت کالا  ",
+        "دوازده ماه ضمانت خدمات و تعمیرات (+300,000 تومان)"
+      ]
     },
     {
       "id": "5",
-      "title": "DualSense-Midnight Black",
-      "description": "دوال سنس مشکی",
-      "price": "1,750,000 تومان",
-      "images": "https://pspro.ir/image/cache/catalog/Mahsool/GSVX2/gamesir-vx2-260x260.jpg"
-
+      "title": "Razer Basilisk v3",
+      "description": "موس گیمینگ Razer ",
+      "price": 2250000,
+      "images": "https://pspro.ir/image/cache/catalog/Mahsool/RB/v3/v3/razer-basilisk-v3-260x260.jpg",
+      "company": "Razer",
+      "options": [
+        "  دارای سنسور Focus+ با حداکثر دقت 26000DPI",
+        " مجهز به تکنولوژی HyperScroll",
+        " سازگار با نرم افزار Razer Synapse"
+      ],
+      "garanty": [
+        " ده روز مهلت تست رایگان و اصالت کالا  ",
+        "دوازده ماه ضمانت خدمات و تعمیرات (+300,000 تومان)"
+      ]
     },
     {
       "id": "6",
-      "title": "DualSense-Midnight Black",
-      "description": "دوال سنس مشکی",
-      "price": "1,750,000 تومان",
-      "images": "https://pspro.ir/image/cache/catalog/Mahsool/RK/v3P/razer-kraken-v3-pro-260x260.jpg"
-
+      "title": "دسته PS5 - قرمز",
+      "description": "دوال سنس قرمز",
+      "price": 2150000,
+      "images": "https://pspro.ir/image/cache/catalog/PS5/DualSense/GP/dualsense-galactic-purple-262x262.jpg",
+      "company": "sony",
+      "options": [
+        " قابل استفاده به صورت بی سیم و با کابل USB-C",
+        "  ارای تکنولوژی تریگرهای تبطیق پذیر و فیدبک هپتیک",
+        "  دارای تاچ پد و حسگر حرکتی",
+        " دارای اسپیکر، میکروفون و جک 3.5 میلی متری"
+      ],
+      "garanty": [
+        " ده روز مهلت تست رایگان و اصالت کالا  ",
+        "دوازده ماه ضمانت خدمات و تعمیرات (+300,000 تومان)"
+      ]
     }
   ],
   "items": [
     {
-      "images":
-      "https://pspro.ir/image/cache/catalog/Slides/Kashi/Razer-new2-870x254.jpg"
+      "images": "https://pspro.ir/image/cache/catalog/Slides/Kashi/Razer-new2-870x254.jpg"
     },
     {
-      "images":
-      "https://pspro.ir/image/cache/catalog/Slides/NEW-G/Dualsense-2-d-435x254.jpg"
+      "images": "https://pspro.ir/image/cache/catalog/Slides/NEW-G/Dualsense-2-d-435x254.jpg"
     },
     {
-      "images":
-      "https://pspro.ir/image/cache/catalog/Slides/NEW-G/chair-g-435x254.jpg"
+      "images": "https://pspro.ir/image/cache/catalog/Slides/NEW-G/chair-g-435x254.jpg"
     },
     {
-      "images":
-      "https://pspro.ir/image/cache/catalog/Slides/NEW-G/SSD-435x254.jpg"
+      "images": "https://pspro.ir/image/cache/catalog/Slides/NEW-G/SSD-435x254.jpg"
     },
-
     {
-      "images":
-     "https://pspro.ir/image/cache/catalog/Slides/Kashi/quest2-2-435x254.jpg"
+      "images": "https://pspro.ir/image/cache/catalog/Slides/Kashi/quest2-2-435x254.jpg"
     }
-    ]
+  ]
 }

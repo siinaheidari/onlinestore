@@ -97,7 +97,9 @@ background-color: #f0f0f1;
 text-align: right;
     width: 100%;
 }
-
+a{
+    color: #cd3444;
+}
 /*///////////////////////////////////*/
 
 .header-two{

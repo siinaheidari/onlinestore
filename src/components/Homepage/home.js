@@ -1,14 +1,17 @@
-import React, {useState,useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import axios from "axios";
 import Productitems from "./productitems";
 import Slideshow from "../slideshow/slideshow";
 import SuggestItems from "./suggestitem";
+import {ProductsContext} from "../context/productscontext";
+import {BrowserRouter} from "react-router-dom";
 
 
 
 const Home = () => {
-    const [Products, setProducts] = useState([]);
+    const [products, setProducts] = useState([])
     const [items, setItems] = useState([]);
+
 
     useEffect(() => {
         return () => {
@@ -38,7 +41,7 @@ const Home = () => {
     return (
         <div>
             <Slideshow/>
-            <Productitems Products={Products}/>
+            <Productitems products={products}/>
             <SuggestItems Items={items}/>
         </div>
     );

@@ -1,12 +1,14 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import './header.css'
-import {Link} from "react-router-dom";
+
 import {HiOutlineShoppingCart} from 'react-icons/hi';
+import {Link} from "react-router-dom";
+import {ProductsContext} from "../context/productscontext";
 
 const Header = () => {
 
     const [isopen, setIsopen] = useState(false);
-
+    const [items, setItems] = useContext(ProductsContext)
     const handleMobile = () => {
         setIsopen(!isopen)
     }
@@ -15,7 +17,10 @@ const Header = () => {
             <div>
                 <div className={'header-items'}>
                     <div className={"ul-list"}>
-                        <HiOutlineShoppingCart className={"cart-shopping"}/>
+                        <Link to={"/cart"}>
+                            <HiOutlineShoppingCart className={"cart-shopping"}/>
+                            <span>{items.length}</span>
+                        </Link>
                         <span className={"right-span"}>|</span>
                         <ul className={'right-side'}>
                             <Link to={'/login'}>
